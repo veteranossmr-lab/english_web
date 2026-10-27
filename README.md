@@ -26,12 +26,6 @@ La web presenta de forma clara y accesible los servicios y contenidos relacionad
 
 Abre `index.html` en el navegador, o levanta un servidor local:
 
-```bash
-python -m http.server 8000
-```
-
-Después visita `http://localhost:8000`.
-
 El proyecto se gestiona con Git.
 
 Esperemos que guste y se haya comprendido 
