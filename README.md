@@ -8,13 +8,10 @@ La web presenta de forma clara y accesible los servicios y contenidos relacionad
 
 ## Secciones principales
 
-- **Home**: presentación general del proyecto.
+- **Home**: presentación general 
 - **About Us**: quiénes somos y nuestra misión.
 - **Services**: servicios de comercio internacional.
-- **Markets**: información sobre mercados y países.
-- **Contact**: formulario y datos de contacto.
-
-> Ajusta las secciones a las que tenga realmente vuestra web.
+- **Contact**: datos de contacto.
 
 ## Tecnologías
 
