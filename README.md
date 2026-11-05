@@ -29,3 +29,10 @@ Abre `index.html` en el navegador, o levanta un servidor local:
 El proyecto se gestiona con Git.
 
 Esperemos que guste y se haya comprendido 
+
+## Autores
+
+- Kevin Fernandez
+- Oier Gonzalez
+- Ekaitz Martin
+- Oier Abando
