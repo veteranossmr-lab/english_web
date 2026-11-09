@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <section id="contacto" class="seccion">
+    <h2>Contact us</h2>
+    <p>Leave your details and tell us what you are interested in. We will contact you soon.</p>
+
+    <form class="formulario" action="#" method="post">
+      <label for="nombre">First name</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Your first name" required>
+
+      <label for="apellidos">Surname</label>
+      <input type="text" id="apellidos" name="apellidos" placeholder="Your surname" required>
+
+      <label for="correo">Email</label>
+      <input type="email" id="correo" name="correo" placeholder="you@example.com" required>
+
+      <label for="telefono">Phone number</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="+34 600 123 456">
+
+      <label for="sexo">Sex</label>
+      <select id="sexo" name="sexo">
+        <option value="">Choose an option</option>
+        <option value="mujer">Female</option>
+        <option value="hombre">Male</option>
+        <option value="otro">Other</option>
+        <option value="no-indicar">Prefer not to say</option>
+      </select>
+
+      <label for="comentario">What are you interested in?</label>
+      <textarea id="comentario" name="comentario" rows="4" placeholder="Tell us how we can work together."></textarea>
+
+      <button type="submit">Send message</button>
+    </form>
+  </section>
+
+  <footer class="pie">
+    <p>ALMINGO S.L. - Software and apps for everyone</p>
+  </footer>
+</body>
+</html>

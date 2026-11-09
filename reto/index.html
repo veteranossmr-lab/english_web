@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALMINGO S.L.</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- CABECERA CON EL MENU -->
+  <header class="cabecera">
+    <h1 class="logo">ALMINGO</h1>
+    <nav class="menu">
+      <a href="quienes-somos.html" target="_blank">About us</a>
+      <a href="servicios.html" target="_blank">Services</a>
+      <a href="internacional.html" target="_blank">International</a>
+      <a href="equipo.html" target="_blank">Our team</a>
+      <a href="contacto.html" target="_blank">Contact us</a>
+    </nav>
+  </header>
+
+  <!-- PORTADA -->
+  <section class="portada">
+    <h2>Software and apps without borders</h2>
+    <p>ALMINGO S.L. is opening its doors to the international market.</p>
+    <a class="boton" href="contacto.html">Get in touch</a>
+  </section>
+
+  <!-- QUIENES SOMOS -->
+  <section id="quienes-somos" class="seccion">
+    <h2>About us</h2>
+    <p>ALMINGO S.L. is a company that specialises in developing software and apps for companies and individuals.</p>
+    <p>Recently, a new management team has joined the company. They want to modernise our computer systems and databases, and they want to take ALMINGO beyond our national borders. That is why this new website is in English.</p>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="seccion gris">
+    <h2>Our services</h2>
+    <div class="cajas">
+      <div class="caja">
+        <h3>Custom software</h3>
+        <p>Programs designed around the needs of your business.</p>
+      </div>
+      <div class="caja">
+        <h3>Mobile apps</h3>
+        <p>Simple and fast apps for companies and individuals.</p>
+      </div>
+      <div class="caja">
+        <h3>Database management</h3>
+        <p>Safe and well-organised data for your daily work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RELACIONES INTERNACIONALES -->
+  <section id="internacional" class="seccion">
+    <h2>Our international plans</h2>
+    <p>Our new management wants ALMINGO to grow in the global market. We want to build good relationships with clients and partners in other countries.</p>
+    <table class="tabla">
+      <tr>
+        <th>Region</th>
+        <th>Language</th>
+        <th>Our goal</th>
+      </tr>
+      <tr>
+        <td>United Kingdom</td>
+        <td>English</td>
+        <td>Find new clients for our software</td>
+      </tr>
+      <tr>
+        <td>Germany</td>
+        <td>German and English</td>
+        <td>Work with local technology companies</td>
+      </tr>
+      <tr>
+        <td>United States</td>
+        <td>English</td>
+        <td>Offer our apps to small businesses</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- EQUIPO Y FORMA DE TRABAJAR -->
+  <section id="equipo" class="seccion gris">
+    <h2>Our team</h2>
+    <p>To work with international partners, our whole development team now works together in one place. We use a version control system, so everyone can share code, check each other's changes and go back to an earlier version if something goes wrong.</p>
+    <ul>
+      <li>Clear and organised teamwork</li>
+      <li>Safe code that is always backed up</li>
+      <li>Fast answers for our clients around the world</li>
+    </ul>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section id="contacto" class="seccion">
+    <h2>Contact us</h2>
+    <p>Leave your details and tell us what you are interested in. We will contact you soon.</p>
+
+    <form class="formulario" action="#" method="post">
+      <label for="nombre">First name</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Your first name" required>
+
+      <label for="apellidos">Surname</label>
+      <input type="text" id="apellidos" name="apellidos" placeholder="Your surname" required>
+
+      <label for="correo">Email</label>
+      <input type="email" id="correo" name="correo" placeholder="you@example.com" required>
+
+      <label for="telefono">Phone number</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="+34 600 123 456">
+
+      <label for="sexo">Sex</label>
+      <select id="sexo" name="sexo">
+        <option value="">Choose an option</option>
+        <option value="mujer">Female</option>
+        <option value="hombre">Male</option>
+        <option value="otro">Other</option>
+        <option value="no-indicar">Prefer not to say</option>
+      </select>
+
+      <label for="comentario">What are you interested in?</label>
+      <textarea id="comentario" name="comentario" rows="4" placeholder="Tell us how we can work together."></textarea>
+
+      <button type="submit">Send message</button>
+    </form>
+  </section>
+
+  <!-- PIE DE PAGINA -->
+  <footer class="pie">
+    <p>ALMINGO S.L. - Software and apps for everyone</p>
+  </footer>
+
+</body>
+</html>
