@@ -199,3 +199,10 @@ h2 {
   text-align: center;
   padding: 15px;
 }
+
+img {
+  flex-direction: row;
+  text-align: center;
+  height: 25%;
+  width: 25%;
+}
