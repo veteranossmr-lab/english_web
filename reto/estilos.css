@@ -150,6 +150,11 @@ h2 {
   flex-direction: column;
   gap: 6px;
   max-width: 450px;
+  margin: 0 auto;
+}
+
+#contacto {
+  text-align: center;
 }
 
 .formulario label {
